@@ -12,8 +12,27 @@
     "review":[
         {
             "content": "Absolutely beautiful necklace. I received compliments all night. Can't wait to make another purchase from this store.",
+            "username": "Asia Carter",
+            "profilePhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9o-3jqGiGdq42-jqz-0rSHUO3yl3cnU9ZOHY0F8aSooq5_Pr",
+            "date": "12/30/24",
             "id": 1
+        },
+        {
+            "content": "BLAH BLAH BLAH",
+            "username": "Jamie Curtis",
+            "profilePhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfjYM4zPUJLSRf7EHXfa6UN5nSakYrcBYNqR9DGTcZCZCu87mO",
+            "date": "12/30/24",
+            "id": 2
+        },
+        {
+            "content": "YAYAYAYAYAY",
+            "username": "Thomas Rhett",
+            "profilePhoto": "https://www.boots.com/resource/image/521474/estore_how_to/640/640/7b14913d6efaf067973d28171fc4c9c6/qY/square-face---picture.jpg",
+            "date": "12/30/24",
+            "id": 3
         }
+
+
     ],
     "productListing":[]
 

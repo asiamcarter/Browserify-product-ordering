@@ -1,13 +1,25 @@
+
 import reviewData from "./reviewData"
+import review from "./review"
 
 const reviewList = {
+    appendReview() {
+        reviewData.getReviewData()
+        .then(allReviews => {
+            let reviewFragment = document.createDocumentFragment()
+            console.log("allReviews", allReviews)
 
-        appendReview() {
-            let reviewDOM = reviewData.reviewHTML();
-            let bodyContainer = document.querySelector(".output")
-            bodyContainer.appendChild(reviewDOM)
-        }
+            allReviews.forEach(reviewIteration => {
+                let review2 = review.reviewHTML(reviewIteration);
+                reviewFragment.appendChild(review2)
+                console.log("reviewI", reviewIteration)
+            })
 
+            let outputArticle = document.querySelector(".output")
+            outputArticle.appendChild(reviewFragment)
+        })
     }
 
-    export default reviewList
+}
+
+export default reviewList
