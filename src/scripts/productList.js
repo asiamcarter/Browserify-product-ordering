@@ -1,10 +1,12 @@
 import productData from "./productData"
+import product from "./product"
 
 const productList = {
-    appendContact() {
-        let contactDOM = productData.productHTML();
-        let bodyContainer = document.querySelector(".output")
-        bodyContainer.appendChild(contactDOM)
+    appendProduct() {
+        productData.getProductData()
+        .then(allProducts => {
+
+        })
     }
 
 }

@@ -1,0 +1,20 @@
+{
+    "product":[
+        {
+            "photo": "productPhoto.jpg",
+            "title": "Cissal Collar",
+            "price": "210.00",
+            "description": "A substantial sterling silver collar. A classic and elegant minimal statement piece, slightly adjustable.",
+            "quantity": "1",
+            "id": 1
+        }
+    ],
+    "review":[
+        {
+            "content": "Absolutely beautiful necklace. I received compliments all night. Can't wait to make another purchase from this store.",
+            "id": 1
+        }
+    ],
+    "productListing":[]
+
+}

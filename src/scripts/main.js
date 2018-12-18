@@ -3,5 +3,5 @@ import productList from "./productList"
 
 
 nav.createNav();
-productList.appendContact();
+productList.appendProduct();
 
