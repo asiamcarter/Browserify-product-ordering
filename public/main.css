@@ -9,11 +9,12 @@
     justify-content: space-around;
     align-items: center;
 
-    font-size: 15px;
+    font-size: 14px;
     background-image: linear-gradient(to bottom top, #e0e0e0, #9e9e9e);
     border-radius: 12px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navTitle {
@@ -79,6 +80,8 @@ h3, p {
 h3 {
     margin-top: 5%;
     border-bottom: 1px solid black;
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
 }
 
 /* h4 {
@@ -92,6 +95,7 @@ h3 {
     margin-left: 10%;
     margin-top: 50px;
     margin-bottom: 10%;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -108,6 +112,7 @@ h3 {
 
 .productPrice, .productDescription, .productQuantity {
     margin-top: 2%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .productPrice {
