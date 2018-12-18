@@ -14,7 +14,9 @@ const productData = {
         </container>
         `
         let productCard = document.createElement("article")
-        product.innerHTML = productHTML
+        productCard.innerHTML = productHTML
         return productCard;
     }
 }
+
+export default productData
